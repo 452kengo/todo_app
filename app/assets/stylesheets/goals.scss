@@ -11,6 +11,7 @@
     overflow-x: auto;
     overflow-y: hidden;
     height: calc(100% - 80px);
+    max-height: calc(100% - 80px);
 }
 
 .todo-card {

@@ -32,7 +32,7 @@ class GoalsController < ApplicationController
     if @goal.update(goal_params)
       @status = true
     else
-      @status
+      @status = false
     end
   end
 
