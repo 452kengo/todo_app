@@ -12,8 +12,3 @@ $("#modalArea").html("<%= j(render 'goals/form', goal: @goal) %>")
 $("#modalArea").find(".modal").modal('show')
 <% end %>
 
-<!--もし@status == true なら-->
-<% if @status %>
-<!--goalsIndexを取得して末尾に追加しなさい(append) @goalを追加しなさい-->
-<!--#goalsIndexは(app>view>goals>index.html.erbに記載しました)-->
-$("#goalsIndex").append("<%= j(render @goal) %>");
