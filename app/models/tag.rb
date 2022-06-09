@@ -4,5 +4,5 @@ class Tag < ApplicationRecord
   has_many :todos, through: :todo_tags
   
   validates :name, presence: true
-  validates :name, uniqueness: :true
+  validates :name, uniqueness: true
 end
